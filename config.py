@@ -1,5 +1,5 @@
-USERNAME = "Your_Robinhood_Username"
-PASSWORD = "Your_Robinhood_Password"
+USERNAME = ""
+PASSWORD = ""
 
 # The number of days to run the autotrader (INTEGER), must be greater than zero (0)
 TIMEINDAYS = 1
@@ -18,7 +18,7 @@ PLOTCRYPTO = True
 PLOTPORTFOLIO = False
 
 # The mode to run the autotrader, available modes are 'LIVE', 'BACKTEST', and 'SAFELIVE'
-MODE = 'SAFELIVE'
+MODE = 'LIVE'
 
 #------------------FOR 'BACKTEST' MODE ONLY---------------------------------
 # 'INTERVAL', 'SPAN', and 'BOUNDS' used for retreiving historical crypto data for backtesting
@@ -32,10 +32,10 @@ BOUNDS = '24_7'
 #---------------------------------------------------------------------------
 
 # Initial capital to start the backtesting with (optional: only for 'BACKTEST' and possibly 'SAFELIVE' modes)
-CASH = 1000.00
+CASH = 1.06
 
 # Is "CASH" above to be used in the 'SAFELIVE' mode? (BOOLEAN), must be either True or False
-USECASH = True
+USECASH = False
 
 # The cryptocurrencies to have the autotrader place orders on
 CRYPTO = ['BTC','ETH']
